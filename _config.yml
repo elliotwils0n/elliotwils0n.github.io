@@ -1,0 +1,10 @@
+title: elliotwils0n
+paginate: 5
+paginate_path: "/blog/page:num/"
+navbar:
+  - name: about
+    url: /
+  - name: blog
+    url: /blog/
+  - name: contact
+    url: /contact

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #181a1b;
+}
+
+body {
+    color: #f8f8ff;
+    font-family: Monospace;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 24px;
+    border-bottom: 1px solid #e0af68;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #e0af68;
+    text-decoration: none;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+a:hover {
+    color: #181a1b;
+    background-color: #e0af68;
+    text-decoration: none;
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    #wrapper {
+        min-width: 90vw;
+        max-width: 90vw;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    #wrapper {
+        min-width: 75vw;
+        max-width: 75vw;
+    }
+}
+
+/* For Desktop */
+@media screen and (min-width: 780px) {
+    #wrapper {
+        min-width: 50vw;
+        max-width: 50vw;
+    }
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+
+#navbar {
+    top: 0;
+    position: sticky;
+    padding: 10px;
+    background-color: #181a1b;
+    text-align: center;
+    border-bottom: 1px dashed #e0af68;
+}
+
+#footer {
+    padding: 10px;
+    text-align: center;
+    border-top: 1px dashed #e0af68;
+}
+
+#content {
+    padding: 20px;
+    text-align: justify;
+}
+
+.blog-list-item {
+    padding-bottom: 10px;
+}
+
+.top-padding {
+    padding-top: 10px;
+}
+
+.navbar-link {
+}
+
+.inactive-link {
+    padding-left: 2px;
+    padding-right: 2px;
+}
